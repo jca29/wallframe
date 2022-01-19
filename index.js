@@ -15,7 +15,7 @@ const client = new Discord.Client({
 
 let bot = {
     client,
-    prefix: "/",
+    prefix: "w.",
     owners: "592470637310771386"
 }
 
