@@ -9,6 +9,6 @@ module.exports = {
         client.loadEvents(bot, true)
         client.loadCommands(bot, true)
 
-        message.reply("Done")
+        message.reply("hola\nprueba")
     }
 }

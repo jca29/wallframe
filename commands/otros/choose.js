@@ -9,7 +9,6 @@ module.exports = {
             max = Math.floor(max);
             return Math.floor(Math.random() * (max - min + 1)) + min;
         }
-
         let i=0
         while(true){
             if(args[i]==undefined){
@@ -18,7 +17,6 @@ module.exports = {
                 i++
             }
         }
-        console.log("i es: "+i)
         if(i>=2){
             message.reply(args[getRandomInt(0,i-1)])
         }else{
