@@ -1,6 +1,6 @@
 module.exports = {
     name: "nick",
-    category: "info",
+    category: "otros",
     permissions: [],
     devOnly: false,
     run: async({client, message, ...args}) => {
