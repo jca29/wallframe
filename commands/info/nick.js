@@ -5,6 +5,6 @@ module.exports = {
     devOnly: false,
     run: async({client, message, args}) => {
 
-        message.reply(message.author.username+" "+message.author.tag)
+        message.reply(message.author.username+" "+message.author.tag+" "+args)
     }
 }
