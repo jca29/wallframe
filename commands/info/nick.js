@@ -3,8 +3,8 @@ module.exports = {
     category: "info",
     permissions: [],
     devOnly: false,
-    run: async({client, message, args}) => {
+    run: async({client, message, ...args}) => {
 
-        message.reply(message.author.username+" "+message.author.tag+" "+args)
+        message.reply(message.author.username+" "+message.author.tag+" "+args[0])
     }
 }
