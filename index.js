@@ -30,8 +30,8 @@ client.loadCommands(bot, false)
 
 module.exports = bot
 
-
-/*client.on("ready", () => {
+/*
+client.on("ready", () => {
     console.log(`Logged in as ${client.user.tag}`)
 })
 

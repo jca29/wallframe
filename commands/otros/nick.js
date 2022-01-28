@@ -9,5 +9,6 @@ module.exports = {
         }else{
             message.member.setNickname(args[0])
         }
+        message.channel.send("prueba")
     }
 }
